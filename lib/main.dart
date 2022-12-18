@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'PlayList_screen.dart';
-import 'home_screen.dart';
-import 'song_screen.dart';
+import 'screens/home_screen.dart';
+import 'screens/playlist_screen.dart';
+import 'screens/song_screen.dart';
 
 void main() {
   runApp(const MyApp());
