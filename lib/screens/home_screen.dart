@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
+import '../models/playlist_model.dart';
+import '../models/song_model.dart';
+import '../widgets/playlist_Card.dart';
+import '../widgets/section_header.dart';
 import '../widgets/song_card.dart';
-import 'models/playlist_model.dart';
-import 'models/song_model.dart';
-import 'widgets/playlist_card.dart';
-import 'widgets/section_header.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
